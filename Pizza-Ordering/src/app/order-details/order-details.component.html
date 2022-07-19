@@ -2,7 +2,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <p class="lead fw-bold">Order Confirmation</p>
+                <h4 class="lead fw-bold text-center">Your order</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
                     (click)="modalCancelClick($event)">×</button>
             </div>
@@ -18,32 +18,24 @@
                                     </div>
                                     <div class="col mb-3">
                                         <p class="small text-muted">Order No.</p>
-                                        <p>012j1gvs356c</p>
+                                        <p>ORD-123</p>
                                     </div>
                                 </div>
 
-                                <div *ngFor="let product of allOrderProducts">
-                                    <div class="row">
-                                        <div class="col-md-8 col-lg-8">
-                                            <p>{{product.name}}</p>
-                                        </div>
-                                        <div class="col-md-4 col-lg-4">
-                                            <p class="rupee">{{product.total}}</p>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr *ngFor="let product of allOrderProducts">
+                                            <td>{{product.name}}</td>
+                                            <td class="rupee">{{product.total}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                                 <div class="row">
-                                        <div class="col-md-8 col-lg-8">
-                                            <p>Total</p>
-                                        </div>
-                                        <div class="col-md-4 col-lg-4">
-                                            <p class="rupee">{{productTotal}}</p>
-                                        </div>
+                                    <div class="col-md-8 col-lg-8">
+                                        <b>Total</b>
                                     </div>
-                                <div class="row my-4">
-                                    <div class="col-md-4 offset-md-8 col-lg-3 offset-lg-9">
-                                        <span class="rupee">{{productTotal}}</span>
+                                    <div class="col-md-4 col-lg-4">
+                                        <b class="rupee">{{productTotal}}</b>
                                     </div>
                                 </div>
                             </div>
@@ -51,10 +43,10 @@
                     </div>
                 </div>
             </div>
-        <div class="mb-3">
-            <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal"
-            (click)="modalCancelClick($event)" data-i18n="button_Cancel">OK</button>
+            <div class="container mb-3">
+                <button type="button" class="btn btn-sm btn-block btn-outline-success" data-dismiss="modal"
+                    (click)="modalCancelClick($event)" data-i18n="button_Cancel">Confirm Order</button>
+            </div>
         </div>
-    </div>
     </div>
 </kendo-dialog>

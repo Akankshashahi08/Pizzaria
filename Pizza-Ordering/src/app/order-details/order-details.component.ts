@@ -23,7 +23,6 @@ export class OrderDetailsComponent implements OnInit {
   }
 
   modalCancelClick(event: any) {
-    debugger;
     this.hideConfirmOrderPopup.emit(0);
   }
 }

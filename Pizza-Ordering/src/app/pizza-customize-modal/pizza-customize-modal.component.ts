@@ -20,7 +20,6 @@ export class PizzaCustomizeModalComponent implements OnInit {
   selectedCrust: Crust | undefined;
 
   constructor(public service: PizzariaServicesService) {
-    debugger;
     this.selectedToppings = new Array<Topping>();
     this.getToppings();
     this.getSize();
@@ -90,7 +89,7 @@ export class PizzaCustomizeModalComponent implements OnInit {
   }
 
 
-  calculateCrust(){
+  calculateCrust() {
     let productBasePrice = this.product?.price;
     this.crusts?.forEach((obj) => {
       switch (obj.crustId) {
@@ -111,7 +110,6 @@ export class PizzaCustomizeModalComponent implements OnInit {
   }
 
   modalCancelClick(event: any) {
-    debugger;
     this.newItemEvent.emit(0);
   }
 
@@ -149,7 +147,6 @@ export class PizzaCustomizeModalComponent implements OnInit {
   }
 
   onSelectTopping(event: any, topping: any) {
-    debugger;
     if (event.currentTarget.checked) {
       this.selectedToppings?.push(topping);
     } else {
@@ -166,8 +163,6 @@ export class PizzaCustomizeModalComponent implements OnInit {
   }
 
   AddToCartInfo() {
-    debugger;
-  
     if (this.product != undefined) {
       this.product.crustId = this.selectedCrust?.crustId;
       this.product.crust = this.selectedCrust;
@@ -175,12 +170,12 @@ export class PizzaCustomizeModalComponent implements OnInit {
       this.product.sizeId = this.selectedSize?.sizeId;
       this.product.size = this.selectedSize;
     }
+    
     this.calculatePizzaPrice();
     this.prodDetails.emit(this.product);
   }
 
   calculatePizzaPrice() {
-    debugger;
     if (this.product != undefined) {
       let totalPrice = 0;
       let toppingPriceArray = this.product?.pizzaToppings?.map(m => m.price);
@@ -190,7 +185,6 @@ export class PizzaCustomizeModalComponent implements OnInit {
 
       totalPrice = totalPrice + Number(this.selectedCrust?.price);
       this.product.priceAfterCustomization = totalPrice;
-
 
       let toppingNameArray = this.product?.pizzaToppings?.map(m => m.name);
       this.product.pizzaSelectedToppingNames = toppingNameArray?.join(', ');
@@ -204,5 +198,4 @@ export class PizzaCustomizeModalComponent implements OnInit {
       this.showPopup = true;
     }
   }
-
 }

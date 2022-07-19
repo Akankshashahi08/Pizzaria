@@ -35,15 +35,21 @@
             <h3 class="card-header text-center">C A R T</h3>
           </div>
           <div class="cart-wrapper">
+            <div class="alert alert-light text-center" *ngIf="cartTotal == 0">
+              <h4>YOUR CART IS EMPTY</h4>
+              <h6>
+                Please add some items from the menu.
+              </h6>
+            </div>
             <div class="card mb-3" *ngFor="let product of allCartProduct">
               <img class="card-img-top" src="{{product.image}}" alt="{{product.name}}">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-6`">
+                  <div class="col-8">
                     <h5 class="card-title">{{product.name}}</h5>
                   </div>
-                  <div class="col-4"> <button (click)="DeleteCart(product)">Remove</button></div>
                 </div>
+
                 <div class="card-text">
                   <div class="row">
                     <div class="col-4">Quantity</div>
@@ -51,9 +57,13 @@
                       <input class="form-control form-control-sm" type="number" min="1" value="1"
                         (change)="UpdateQuantity($event, product)" />
                     </div>
-                    <h4 class="col-5 rupee">{{product.total}}</h4>
+                    <div class="col-5">
+                      <h4 class="rupee">
+                        {{product.total}}
+                      </h4>
+                    </div>
                   </div>
-                  <div class="row" *ngIf="product.isCustomized">
+                  <div class="row mb-3" *ngIf="product.isCustomized">
                     <div class="col-12">
                       <h6>Your Customisation</h6>
                       <div class="small" *ngIf="product.pizzaSelectedToppingNames != undefined"><b>Added Toppings</b>:
@@ -65,12 +75,16 @@
                       </span>
                     </div>
                   </div>
+                  <div class="row">
+                    <button type="button" class="btn btn-sm btn-block btn-outline-danger"
+                      (click)="DeleteCart(product)">Remove</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="card border-light mb-3">
-            <h3 class="card-header">Subtotal: <span class="rupee">{{cartTotal}}</span> </h3>
+            <h3 class="card-header mb-2">Subtotal <span class="rupee pull-right">{{cartTotal}}</span> </h3>
             <button type="button" class="btn btn-sm btn-outline-primary" (click)="ConfirmOrder()">Order</button>
           </div>
         </div>

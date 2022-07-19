@@ -45,8 +45,6 @@ export class AppComponent {
   }
 
   addToCartListener(prod: any) {
-    debugger;
- 
     if (prod.isCustomized) {
       prod.total = prod.priceAfterCustomization;
     } else {
@@ -88,7 +86,6 @@ export class AppComponent {
   }
 
   updateCartTotal() {
-    debugger;
     this.cartTotal = 0;
     let priceArray = this.allCartProduct?.map(m => m.total);
     priceArray?.forEach((obj) => {

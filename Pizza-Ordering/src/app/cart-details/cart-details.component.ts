@@ -13,7 +13,6 @@ export class CartDetailsComponent implements OnInit {
   productDetails: any[] | undefined
 
   ngDoCheck(){
-    debugger
     if (this.productDetails == undefined) {
       this.productDetails = new Array<Product>();
     }
@@ -22,21 +21,9 @@ export class CartDetailsComponent implements OnInit {
   }
 
   constructor() {
-    // debugger
-    // if (this.productDetails == undefined) {
-    //   this.productDetails = new Array<Product>();
-    // }
-
-    // this.productDetails?.push(this.productInfo);
   }
 
   ngOnInit() {
-    //let a = this.cartdata;
-    // if (this.productDetails == undefined) {
-    //   this.productDetails = new Array<Product>();
-    // }
-
-    // this.productDetails?.push(this.productInfo);
   }
 
   Add(evnt: any) {
