@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pizzaria.DataAccess.Sql\Pizzaria.DataAccess.Sql.csproj" />
+    <ProjectReference Include="..\Pizzaria.Entities\Pizzaria.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

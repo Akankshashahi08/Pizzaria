@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Pizzaria.DataAccess.Sql
+build_property.ProjectDir = D:\ProjectPizza\Pizzaria\Pizzaria.DataAccess.Sql\
