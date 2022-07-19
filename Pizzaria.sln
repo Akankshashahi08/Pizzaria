@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{21
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{FFD56954-C230-4F99-946E-E80EE8315F80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{44B3D72B-F4D1-4711-B710-2814794ACE7B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.DataAccess.Sql", "Pizzaria.DataAccess.Sql\Pizzaria.DataAccess.Sql.csproj", "{381322E2-E736-4B5E-B14F-8E437C7056E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Repository", "Pizzaria.Repository\Pizzaria.Repository.csproj", "{0EF8B071-28A4-4FE3-BC7A-6370012D6307}"
@@ -23,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Function.Api", "Pi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1397D7E7-F818-438A-814E-ED2962D46B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.Function.Api.Tests", "Pizzaria.Function.Api.Tests\Pizzaria.Function.Api.Tests.csproj", "{2DFB5D2F-CB25-401D-A7E1-A2FEEB553021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Function.Api.Tests", "Pizzaria.Function.Api.Tests\Pizzaria.Function.Api.Tests.csproj", "{2DFB5D2F-CB25-401D-A7E1-A2FEEB553021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.Function.Repository.Tests", "Pizzaria.Function.Repository.Tests\Pizzaria.Function.Repository.Tests.csproj", "{EF4E33D3-6C58-4237-BCDE-9B787687DFF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Function.Repository.Tests", "Pizzaria.Function.Repository.Tests\Pizzaria.Function.Repository.Tests.csproj", "{EF4E33D3-6C58-4237-BCDE-9B787687DFF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,7 +61,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FFD56954-C230-4F99-946E-E80EE8315F80} = {76885C4C-F483-4D53-9246-15BFED4B0AE3}
-		{44B3D72B-F4D1-4711-B710-2814794ACE7B} = {76885C4C-F483-4D53-9246-15BFED4B0AE3}
 		{381322E2-E736-4B5E-B14F-8E437C7056E2} = {71A5FBF7-7B30-42C4-9E9E-6BB10941B090}
 		{0EF8B071-28A4-4FE3-BC7A-6370012D6307} = {71A5FBF7-7B30-42C4-9E9E-6BB10941B090}
 		{5961CDCA-D0B8-4B32-A278-102E1DAA327B} = {2114A934-0F0A-4C33-A15E-1CBFD9288E1B}

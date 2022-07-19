@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iQT9cu4fifj7s260LJSUQza3u1KjLvrE+HZi+vMRsm0Y4zsjNiA/SfR3KNgFmpLa3B1BaReBj5/RshxDVPx8HQ==",
+  "dgSpecHash": "b9jw4fpHoLV9kp38+mxewKWCEa+WyHeEWxRMQ5HYfrenuPvl2EFIYWJM4cx+BeoPhFCmegSztJQeSMX4vxkLQg==",
   "success": true,
-  "projectFilePath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
+  "projectFilePath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akshahi\\.nuget\\packages\\azurefunctions.extensions.dependencyinjection\\1.1.3\\azurefunctions.extensions.dependencyinjection.1.1.3.nupkg.sha512",
     "C:\\Users\\akshahi\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

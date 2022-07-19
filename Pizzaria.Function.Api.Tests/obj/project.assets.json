@@ -10108,11 +10108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
+      "projectUniqueName": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
       "projectName": "Pizzaria.Function.Api.Tests",
-      "projectPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
+      "projectPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api.Tests\\Pizzaria.Function.Api.Tests.csproj",
       "packagesPath": "C:\\Users\\akshahi\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api.Tests\\obj\\",
+      "outputPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -10134,8 +10134,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api\\Pizzaria.Function.Api.csproj": {
-              "projectPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Api\\Pizzaria.Function.Api.csproj"
+            "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api\\Pizzaria.Function.Api.csproj": {
+              "projectPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Api\\Pizzaria.Function.Api.csproj"
             }
           }
         }

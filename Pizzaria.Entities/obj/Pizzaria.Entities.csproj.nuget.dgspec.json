@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj": {}
+    "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj": {}
   },
   "projects": {
-    "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj": {
+    "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
+        "projectUniqueName": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
         "projectName": "Pizzaria.Entities",
-        "projectPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
+        "projectPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
         "packagesPath": "C:\\Users\\akshahi\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Entities\\obj\\",
+        "outputPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

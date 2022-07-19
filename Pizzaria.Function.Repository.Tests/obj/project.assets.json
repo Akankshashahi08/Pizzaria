@@ -5717,11 +5717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Repository.Tests\\Pizzaria.Function.Repository.Tests.csproj",
+      "projectUniqueName": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Repository.Tests\\Pizzaria.Function.Repository.Tests.csproj",
       "projectName": "Pizzaria.Function.Repository.Tests",
-      "projectPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Repository.Tests\\Pizzaria.Function.Repository.Tests.csproj",
+      "projectPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Repository.Tests\\Pizzaria.Function.Repository.Tests.csproj",
       "packagesPath": "C:\\Users\\akshahi\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectPizza\\Pizzaria\\Pizzaria.Function.Repository.Tests\\obj\\",
+      "outputPath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Function.Repository.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
