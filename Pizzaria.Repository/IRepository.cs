@@ -10,7 +10,6 @@ namespace Pizzaria.Repository
     {
         void Delete(TEntity entity);
         Task<IEnumerable<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate, params string[] includeProperties);
-        Task<IEnumerable<T>> GetAllAsync<T>(Expression<Func<T, bool>> predicate, params string[] includeProperties) where T : class, IDbEntity;
         Task<TEntity> GetByIdAsync(object id);
         void Insert(TEntity entity);
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);

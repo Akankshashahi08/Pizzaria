@@ -24,3 +24,16 @@ D:\ProjectPizza\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzari
 D:\ProjectPizza\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.csproj.CopyComplete
 D:\ProjectPizza\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.dll
 D:\ProjectPizza\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.pdb
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\bin\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.deps.json
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\bin\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.dll
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\bin\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.pdb
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\bin\Debug\netcoreapp3.1\Pizzaria.Entities.dll
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\bin\Debug\netcoreapp3.1\Pizzaria.Entities.pdb
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.csprojAssemblyReference.cache
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.GeneratedMSBuildEditorConfig.editorconfig
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.AssemblyInfoInputs.cache
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.AssemblyInfo.cs
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.csproj.CoreCompileInputs.cache
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.csproj.CopyComplete
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.dll
+D:\PizzaCafe\Pizzaria\Pizzaria.DataAccess.Sql\obj\Debug\netcoreapp3.1\Pizzaria.DataAccess.Sql.pdb

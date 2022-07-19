@@ -54,13 +54,6 @@ namespace Pizzaria.Repository
             return this.dataAccess.GetAllAsync(predicate, includeProperties);
         }
 
-        /// <inheritdoc/>
-        public Task<IEnumerable<T>> GetAllAsync<T>(Expression<Func<T, bool>> predicate, params string[] includeProperties)
-            where T : class, IDbEntity
-        {
-            return this.dataAccess.GetAllAsync(predicate, includeProperties);
-        }
-
         public Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> predicate, params string[] includeProperties)
         {
             return this.dataAccess.FirstOrDefaultAsync(predicate, includeProperties);
