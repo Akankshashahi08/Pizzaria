@@ -1,0 +1,19 @@
+<div class="card mb-4 shadow-sm">
+  <img class="bd-placeholder-img card-img-top" width="100%" data-src="{{product.image}}"
+    defaultimage="/static/assets/placeholder.png"
+    defaultimagesrcset="/static/assets/placeholder.png 1x, /static/assets/placeholder@2x.png 2x, /static/assets/placeholder@3x.png 3x"
+    src="{{product.image}}" />
+  <div class="card-body">
+    <h4>{{product.name}}</h4>
+    <p class="card-text">{{product.description}}</p>
+    <div class="d-flex justify-content-between align-items-center">      
+      <h3 class="text-muted rupee">{{product.price}}</h3>
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-outline-secondary" (click)="openToppings()" *ngIf="product.productCategoryId == 2">Customize</button>
+        <pizza-customize-modal *ngIf="showPopup" [product]="product" (newItemEvent)="closeToppings()" (prodDetails) = "AddToCart($event)">
+        </pizza-customize-modal>
+        <button type="button" class="btn btn-sm btn-outline-secondary"  (click) = "AddToCartInfo(product)">Add</button>
+      </div>
+    </div>
+  </div>
+</div>

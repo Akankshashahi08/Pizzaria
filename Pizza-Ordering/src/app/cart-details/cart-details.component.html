@@ -1,0 +1,94 @@
+<div class="col-3">
+    <div class="col-md-4 fixed-cart shadow-sm">
+      <div class="card border-light mb-3" style="max-width: 18rem;">
+        <h3 class="card-header text-center">C A R T</h3>
+      </div>
+      <div class="cart-wrapper"  *ngFor="let product of productDetails">
+
+        <div class="card mb-3" style="max-width: 18rem;">
+          <img class="card-img-top" src="{{product.image}}" alt="{{product.name}}">
+          <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <div class="card-text">
+              <div class="row">
+                <div class="col-4">Quantity</div>
+                <div class="col-3">
+                  <input class="form-control form-control-sm" type="number" id="quantity1" value="1" (click) = "Add($event)"/>
+                </div>
+                <h4 class="col-4 rupee">{{product.price}}</h4>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <h6>Your Customisation</h6>
+                  <p class="small"><b>Added Toppings</b>:
+                    asd,ad,asd,asd,sdas,d,asd
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-light mb-3" style="max-width: 18rem;">
+        <h3 class="card-header">Subtotal: <span class="rupee">3000</span> </h3>
+        <button type="button" class="btn btn-sm btn-outline-primary">Order</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="flyout">
+    <div class="flyout-cg">
+        <div>
+            <div class="clos-icon nav_trigger" (click)="onTaskCancel()">
+                <span class="fa fa-times fa-2x"></span>
+                <span>Close</span>
+            </div>
+            <div class="margin-b-30">
+                <div *ngFor="let product of productDetails; let i = index">
+                    <div class="crt-bdy">
+                        <div class="crt-cntnt">
+                            <div class="crt-cnt">
+                                <div class="crt-cnt-img">
+                                    <div class="injectStyles-sc-1jy9bcf-0 cxiGXZ">
+
+                                    </div><img src= "{{product.image}}">
+                                </div>
+                                <div class="crt-cnt-descrptn"><span class="crt-cnt-descrptn-ttl">
+                                       {{product.description}}</span>
+                                    <div class="crt-cnt-descrptn-sz-crst"><span
+                                            data-label="mini-cart-size">{{product.size}}</span><span> |
+
+                                        </span><span data-label="mini-cart-crust">{{product.crust}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="crt-cnt-qty-prc"><span class="crt-cnt-qty-prc-txt"><span
+                                        class="rupee">{{product.price}}</span></span>
+                                <div>
+                                     <div class="sc-kgoBCf fPKnWm" data-label="quantity">
+                                        <button data-label="addTocart" (click) = "AddToCartInfo($event)">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                          </button>
+                                          <span class="cntr-val">{{product.Quantity}}</span>
+                                          <button data-label="addTocart" (click) = "RemoveFromCartInfo()">
+                                            <span class="glyphicon glyphicon-minus"></span>
+                                          </button>                               
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="sc-tilXH dIDNMW">{{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
