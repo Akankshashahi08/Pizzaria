@@ -325,14 +325,3 @@ ASALocalRun/
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
-# MFractors (Xamarin productivity tool) working folder
-.mfractor/
-/Test/Bdd/Plugins/Bdd.Core.Generator.SpecFlowPlugin.dll
-/Develop/Ecp.True/DI/Ecp.True.DI.Aas/Ecp.True.DI.AAS.sln
-/Develop/Ecp.True/Ecp.True.Host.UI/coverage
-/Develop/Ecp.True/Ecp.True.Host.UI/wwwroot/src/js/test-report.xml
-*.deploymentoptions
-*.deploymenttargets
-/Develop/Ecp.True/Ecp.True.Host.UI/coverage/*
-/Develop/Ecp.True/Ecp.True.Host.UI/test-report.xml
-msbuild.ProjectImports.zip
