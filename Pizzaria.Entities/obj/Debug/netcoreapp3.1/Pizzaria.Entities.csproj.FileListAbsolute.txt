@@ -18,3 +18,13 @@ D:\ProjectPizza\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Enti
 D:\ProjectPizza\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.csproj.CoreCompileInputs.cache
 D:\ProjectPizza\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.dll
 D:\ProjectPizza\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.pdb
+C:\Projects\Pizzaria\Pizzaria.Entities\bin\Debug\netcoreapp3.1\Pizzaria.Entities.deps.json
+C:\Projects\Pizzaria\Pizzaria.Entities\bin\Debug\netcoreapp3.1\Pizzaria.Entities.dll
+C:\Projects\Pizzaria\Pizzaria.Entities\bin\Debug\netcoreapp3.1\Pizzaria.Entities.pdb
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.csproj.AssemblyReference.cache
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.AssemblyInfoInputs.cache
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.AssemblyInfo.cs
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.csproj.CoreCompileInputs.cache
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.dll
+C:\Projects\Pizzaria\Pizzaria.Entities\obj\Debug\netcoreapp3.1\Pizzaria.Entities.pdb

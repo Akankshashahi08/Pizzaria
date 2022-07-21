@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "65DZU4xEL7TJdUEMUNF4qzurGXMrDsnyUcSVT2eqOvKOiKpcg1cnepN2m1kganIWnPvO5A/qOiHx2m81YKtb7w==",
+  "dgSpecHash": "uM9ESalkJK0cmUoRNsZ5X6SogVhG7YQ6btGyIJA+beTLSPhTR+Y1BIotYyaXiWbeSLUN34ZozBPIQYBUnX/ndw==",
   "success": true,
-  "projectFilePath": "D:\\PizzaCafe\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
+  "projectFilePath": "C:\\Projects\\Pizzaria\\Pizzaria.Entities\\Pizzaria.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\akshahi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\aapawar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
