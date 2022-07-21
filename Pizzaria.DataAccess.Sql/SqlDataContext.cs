@@ -23,8 +23,7 @@ namespace Pizzaria.DataAccess.Sql
 
         public async Task<int> SaveAsync(CancellationToken cancellationToken)
         {
-            await this.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
-            return 1;
+            return await this.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -57,11 +56,6 @@ namespace Pizzaria.DataAccess.Sql
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
-        }
-
-        private static bool CheckIfEntryIsAdded(EntityEntry entry)
-        {
-            return entry.State == EntityState.Added && entry.Metadata.FindProperty("CreatedDate") != null && entry.Metadata.FindProperty("CreatedBy") != null;
         }
     }
 }

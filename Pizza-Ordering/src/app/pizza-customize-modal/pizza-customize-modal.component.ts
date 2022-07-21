@@ -66,13 +66,13 @@ export class PizzaCustomizeModalComponent implements OnInit {
               obj.price = Number(productBasePrice);
               break;
             case 2: //100% Wheat Thin Crust
-              obj.price = Number(productBasePrice) + 50;
+              obj.price = Number(productBasePrice) + Number(obj.price);
               break;
             case 3: //Cheese Brust
-              obj.price = Number(productBasePrice) + 100;
+              obj.price = Number(productBasePrice) + Number(obj.price);
               break;
             case 5: //Classic Hand Tossed
-              obj.price = Number(productBasePrice) + 90;
+              obj.price = Number(productBasePrice) + Number(obj.price);
               break;
           }
         });
@@ -97,13 +97,13 @@ export class PizzaCustomizeModalComponent implements OnInit {
           obj.price = Number(productBasePrice);
           break;
         case 2: //100% Wheat Thin Crust
-          obj.price = Number(productBasePrice) + 50;
+          obj.price = Number(productBasePrice) +  Number(obj.price);;
           break;
         case 3: //Cheese Brust
-          obj.price = Number(productBasePrice) + 100;
+          obj.price = Number(productBasePrice) +  Number(obj.price);;
           break;
         case 5: //Classic Hand Tossed
-          obj.price = Number(productBasePrice) + 90;
+          obj.price = Number(productBasePrice) +  Number(obj.price);;
           break;
       }
     });
@@ -119,7 +119,7 @@ export class PizzaCustomizeModalComponent implements OnInit {
     switch (this.selectedSize?.sizeId) {
       case 2: //Regular minus 100
         this.crusts?.forEach((obj) => {
-          obj.price = Number(obj?.price) - 100;
+          obj.price = Number(obj?.price) - Number(this.selectedSize?.price);
         });
         break;
       case 3: // Medium minus 100
@@ -127,7 +127,7 @@ export class PizzaCustomizeModalComponent implements OnInit {
         break;
       case 4: //Large add 100
         this.crusts?.forEach((obj) => {
-          obj.price = Number(obj?.price) + 100;
+          obj.price = Number(obj?.price) + Number(this.selectedSize?.price);
         });
         break;
     }
@@ -170,7 +170,7 @@ export class PizzaCustomizeModalComponent implements OnInit {
       this.product.sizeId = this.selectedSize?.sizeId;
       this.product.size = this.selectedSize;
     }
-    
+
     this.calculatePizzaPrice();
     this.prodDetails.emit(this.product);
   }
